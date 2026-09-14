@@ -1,0 +1,26 @@
+        :root {
+            --black: #111111;
+            --yellow: #ffd700;
+            --gold: #ffcc00;
+            --accent: #e63946;
+        }
+
+        body { background: linear-gradient(#111111, #1a1a1a); color: white; }
+        .navbar { background: #000 !important; border-bottom: 4px solid var(--yellow); }
+        .navbar-brand { color: var(--yellow) !important; font-weight: 900; font-size: 1.8rem; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://picsum.photos/id/1015/1920/600') center/cover; color: var(--yellow); padding: 120px 0; }
+        .card { background: #222; border: 2px solid var(--yellow); transition: all 0.3s; }
+        .card-title {color:white}
+        .card:hover { transform: translateY(-10px) scale(1.03); box-shadow: 0 0 30px rgba(255, 215, 0, 0.5); }
+        .btn-yellow { background: var(--gold) !important; color: #000 !important; border: 3px solid var(--black); font-weight: 900; padding: 12px 30px; }
+        .btn-yellow:hover { background: var(--black) !important; color: var(--gold) !important; transform: scale(1.05); }
+        .modal-content { background: #222; border: 3px solid var(--yellow); }
+        .modal-body img { max-height: 420px; object-fit: cover; border-radius: 10px; }
+        .section-title { color: var(--gold); text-shadow: 0 0 10px #000; }
+        footer { background: #000; }
+        .instagram-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; }
+        .ig-card { position: relative; overflow: hidden; border: 2px solid var(--yellow); }
+        .ig-card:hover img { transform: scale(1.15); }
+        .price { color: var(--gold); font-weight: 900; }
+        .card-subtitle { color: white !important; font-weight: 700; }
+        .modalDesc { color: var(--yellow) !important; }
